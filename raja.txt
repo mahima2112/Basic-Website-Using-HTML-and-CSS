@@ -1,0 +1,125 @@
+
+<!doctype html>
+<html
+<head>
+<style>
+a:link 
+{text-decoration:none;
+}
+a:visited
+{text-decoration:none;
+a:hoverable{text-decoration:underline;}
+a:active
+{text-decoration:underline;}
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<title>
+falve\rajasthani
+</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Basic.css">
+<link rel="stylesheet" href="fontsCSS.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+</style>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1200px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-62"> 
+  <p>style icons<span class="w3-tag">rajasthan</span></p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<div class="gallery">
+  <a target="_blank" href="http://royal-rajputana.com/images/content/products/product-3.JPG">
+    <img src="http://royal-rajputana.com/images/content/products/product-3.JPG" alt="Fjords" width="200" height="300">
+  </a>
+  <div class="desc"><h4> cost </h4></div>
+  </div>
+  <br>
+  <br>
+  
+  <div class="gallery">
+  <a target="_blank" href=="http://www.menweddingwear.com/images/sherwani/4.jpg">
+  <img src="http://www.menweddingwear.com/images/sherwani/4.jpg" alt="raj1" width="200" height="300">
+  </a>
+    <div class="desc"><h4> cost </h4></div>
+	</div>
+	<br>
+	<br>
+	
+	<div class="gallery">
+  <a target="_blank" href="https://s-media-cache-ak0.pinimg.com/236x/ec/06/39/ec06393d386c37dcdfde0ac0db3221d7--groom-wedding-dress-groom-dress.jpg">
+    <img src="https://s-media-cache-ak0.pinimg.com/236x/ec/06/39/ec06393d386c37dcdfde0ac0db3221d7--groom-wedding-dress-groom-dress.jpg" alt="raj3" width="200" height="300">
+  </a>
+  <div class="desc"><h4> cost </h4></div>
+</div>
+<br>
+<br>
+ 
+ <div class="gallery">
+  <a target="_blank" href="https://1800337939.rsc.cdn77.org/media/catalog/product/cache/1/small_image/281x375/9df78eab33525d08d6e5fb8d27136e95/s/i/sium13732.jpg">
+  <img src="https://1800337939.rsc.cdn77.org/media/catalog/product/cache/1/small_image/281x375/9df78eab33525d08d6e5fb8d27136e95/s/i/sium13732.jpg" alt="raj4" width="200" height="300">
+  </a>
+  <div class="desc"><h4> cost </h4></div>
+  </div>
+  <br>
+  <br>
+  
+</body>
+</html>

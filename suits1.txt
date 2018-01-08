@@ -1,0 +1,79 @@
+
+<!doctype html>
+<html
+<head>
+<style>
+a:link 
+{text-decoration:none;
+}
+a:visited
+{text-decoration:none;
+a:hoverable{text-decoration:underline;}
+a:active
+{text-decoration:underline;}
+</style>
+</head>
+<title>
+falve\suits
+</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Basic.css">
+<link rel="stylesheet" href="fontsCSS.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1200px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-62"> 
+  <p>style icons in<span class="w3-tag">suits</span></p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<div class="gallery">
+  <a target="_blank" href="https://www.fjackets.com/product_images/uploaded_images/linen-suits-for-men.jpg">
+  <a target="_blank" href="https://s-media-cache-ak0.pinimg.com/564x/36/81/2a/36812a11f0947a4d92e44d3c0ec9c20c.jpg">
+    <img src="https://www.fjackets.com/product_images/uploaded_images/linen-suits-for-men.jpg" alt="Fjords" width="200" height="300">
+  </a>
+  <div class="desc"> cost =</div>
+  </div>
+  <br>
+  <br>
+  
+  <div class="gallery">
+  <a target="_blank" href=="https://www.dhresource.com/600x600/f2/albu/g2/M00/D4/4F/rBVaGlTVib2AbJaiAAGhhxOR3r0603.jpg">
+  <img src="https://www.dhresource.com/600x600/f2/albu/g2/M00/D4/4F/rBVaGlTVib2AbJaiAAGhhxOR3r0603.jpg" alt="raj1" width="200" height="300">
+  </a>
+    <div class="desc">cost=</div>
+	</div>
+	<br>
+	<br>
+	
+	<div class="gallery">
+  <a target="_blank" href="https://s-media-cache-ak0.pinimg.com/736x/9d/17/27/9d1727092bad0b9a008267003d417d99--suits-for-men-wedding-suit-for-men.jpg">
+    <img src="https://s-media-cache-ak0.pinimg.com/736x/9d/17/27/9d1727092bad0b9a008267003d417d99--suits-for-men-wedding-suit-for-men.jpg" alt="raj3" width="200" height="300">
+  </a>
+  <div class="desc">cost=</div>
+</div>
+<br>
+<br>
+ 
+ <div class="gallery">
+  <a target="_blank" href="https://s-media-cache-ak0.pinimg.com/736x/cd/7d/ed/cd7dede8b5b929c6e473daea38eb7d6f--grey-vest-gray-shirt.jpg">
+  <img src="https://s-media-cache-ak0.pinimg.com/736x/cd/7d/ed/cd7dede8b5b929c6e473daea38eb7d6f--grey-vest-gray-shirt.jpg" alt="raj4" width="200" height="300">
+  </a>
+  <div class="desc">cost=</div>
+  </div>
+  <br>
+  <br>
+  
+</body>
+</html>

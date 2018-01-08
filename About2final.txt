@@ -1,0 +1,39 @@
+<!doctype html>
+<html
+<head>
+<style>
+a:link 
+{text-decoration:none;
+}
+a:visited
+{text-decoration:none;
+a:hoverable{text-decoration:underline;}
+a:active
+{text-decoration:underline;}
+</style>
+</head>
+<title>
+falve
+</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Basic.css">
+<link rel="stylesheet" href="fontsCSS.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <p>About<span class="w3-tag">Falve</span></p>
+</header>
+
+ <div class="w3-container">
+  <h5>About the website, <span class="w3-opacity">Falve is an online shopping platform used in New Zealand. I have used the basic concept of online shopping for styling Indian men through an open source project.</span></h5>
+    </div>
